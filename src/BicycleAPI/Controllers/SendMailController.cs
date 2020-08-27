@@ -50,6 +50,7 @@ namespace BicycleAPI.Controllers
 
 
             //Очень плохая идея отсылать все и сразу на самом деле, но код здесь оставлю для демонстрации
+            //Возможно стоит переписать через Email и какой-нибудь IEmailFactory, но я пока не знаю нужно ли здесь усложнение
             Task.WaitAll(discountsOnClientBikes.Select(
                 discount =>
                     _emailSender.SendEmailAsync(discount.ClientEmail,
