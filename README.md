@@ -14,6 +14,6 @@
 
 Проект не компилится (поскольку это набросок), последний раз падал ругаясь на два FromBody параметра в методе шоппингконтролерра, что логично.
 
-Попытался организовать всё чисто и с возможностью расширения, поскольку это набросок, работать над которым очень понравилось.
+Попытался организовать всё чисто и с возможностью расширения. Работать с наброском очень понравилось.
 
 В процессе работы ссылался на [Architect Modern Web Applications with ASP.NET Core and Azure](https://docs.microsoft.com/ru-ru/dotnet/architecture/modern-web-apps-azure/) и архитектурный набросок [Microsoft eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb)
